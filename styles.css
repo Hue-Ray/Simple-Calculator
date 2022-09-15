@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.calculator-body{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 280px;
+    height: 570px;
+    background-color: #943333;
+    border-radius: 30px;
+}
+
+.calc-name{
+    position: relative;
+    text-align: center;
+    top: 10px;
+    color: white;
+    }
+
+.screen{
+    width: 250px;
+    height: 200px;
+    background-color: white;
+    position: relative;
+    top: 12px;
+    left: 15px;
+    border-radius: 30px;
+}
+.placeholder{
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-size: 80px;
+    color: #DCDCDC;
+}
+.hr-line{
+    background:1px solid #CABFBF;
+    position: relative;
+    top: 20px;
+    width: 250px;
+    margin: 0 auto;
+}
+
+.button{
+    background-color: black;
+    width: 250px;
+    height: 275px;
+    border-radius: 30px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.top.button{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.cls, .backspace, .num-btn{
+    background-color: #D9D9D9;
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.cls{
+    position: relative;
+    top: 15px;
+    left: 10px;
+    margin-left: 5px;
+}
+.cls p{
+    text-align: center;
+    margin-top: 10px;
+}
+.backspace{
+    position: relative;
+    top: 15px;
+    right: -75px;
+    margin-right: 5px;
+}
+.backspace img{
+    position: relative;
+    top: 7px;
+    left: 5px;
+}
+.num-btn{
+    display: grid;
+    margin: 10px;
+    position: relative;
+    left: 5px;
+    text-align: center;
+}
+.num-btn p{
+    margin-top: 10px;
+}
+
+.rw1{
+    position: relative;
+    top: 12px;
+}
+.rw2{
+    position: relative;
+    left: 65px;
+    top: -188px;
+}
+.rw3{
+    position: relative;
+    left: 130px;
+    top: -388px;
+}
+
+.rw4{
+    position: relative;
+    left: 190px;
+    top: -588px;
+}
+
+.developer p{
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+    font-weight: bolder;
+    font-size: 12px;
+}
